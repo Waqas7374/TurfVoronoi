@@ -1,0 +1,70 @@
+.ol-layerswitcher-image .panel
+{	list-style: none;
+	padding: 0.25em;
+	margin:0;
+	overflow: hidden;
+}
+
+.ol-layerswitcher-image .panel ul
+{	list-style: none;
+	padding: 0 0 0 20px;
+	overflow: hidden;
+}
+
+.ol-layerswitcher-image.ol-collapsed .panel
+{	display:none;
+}
+.ol-layerswitcher-image.ol-forceopen .panel
+{	display:block;
+	clear:both;
+}
+
+.ol-layerswitcher-image.ol-collapsed button
+{	display:block;
+	position:relative;
+}
+
+.ol-layerswitcher-image li
+{	border-radius: 4px;
+	border: 1px solid transparent;
+	box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.9);
+	display: inline-block;
+	width: 64px;
+	height: 35px;
+	margin:2px;
+	position: relative;
+	background-color: #fff;
+	overflow: hidden;
+	vertical-align: middle;
+	cursor:pointer;
+}
+.ol-layerswitcher-image li.ol-header
+{	display: none;
+}
+
+.ol-layerswitcher-image li img
+{	position:absolute;
+	max-width:100%;
+}
+.ol-layerswitcher-image li.select
+{	border: 2px solid red;
+}
+
+.ol-layerswitcher-image li p
+{
+}
+.ol-layerswitcher-image li:hover p
+{	background-color: rgba(0, 0, 0, 0.7);
+	color: #fff;
+	bottom: 0;
+	display: block;
+	left: 0;
+	margin: 0;
+	overflow: hidden;
+	position: absolute;
+	right: 0;
+	text-align: center;
+	height:1.1em;
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:0.8em;
+}
